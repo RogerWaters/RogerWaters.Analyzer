@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RogerWaters.Analyzer", "RogerWaters.Analyzer\RogerWaters.Analyzer\RogerWaters.Analyzer.csproj", "{BBA70F4C-644F-433C-964F-FAD44DF271E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RogerWaters.Analyzer.Test", "RogerWaters.Analyzer\RogerWaters.Analyzer.Test\RogerWaters.Analyzer.Test.csproj", "{21BFEAAE-61C4-4FAC-BC05-D994DA4284AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RogerWaters.Analyzer.Vsix", "RogerWaters.Analyzer\RogerWaters.Analyzer.Vsix\RogerWaters.Analyzer.Vsix.csproj", "{1412EBFB-377D-430D-9CF5-C80B6F2576BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE3B73D9-75D1-4DEC-A87A-90100BB5FA49}"
+	ProjectSection(SolutionItems) = preProject
+		packages\z3win_AnyCPU.4.5.0.5\lib\libz3_x64.dll = packages\z3win_AnyCPU.4.5.0.5\lib\libz3_x64.dll
+		packages\z3win_AnyCPU.4.5.0.5\lib\libz3_x86.dll = packages\z3win_AnyCPU.4.5.0.5\lib\libz3_x86.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

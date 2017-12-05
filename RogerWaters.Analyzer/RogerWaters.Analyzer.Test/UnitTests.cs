@@ -5,6 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using TestHelper;
 using RogerWaters.Analyzer;
+using RogerWaters.Analyzer.NotNullAnalyzer;
 
 namespace RogerWaters.Analyzer.Test
 {

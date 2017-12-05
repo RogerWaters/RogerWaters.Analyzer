@@ -12,6 +12,7 @@ using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Rename;
 using Microsoft.CodeAnalysis.Text;
+using RogerWaters.Analyzer.NotNullAnalyzer;
 
 namespace RogerWaters.Analyzer
 {
@@ -22,7 +23,7 @@ namespace RogerWaters.Analyzer
 
         public sealed override ImmutableArray<string> FixableDiagnosticIds
         {
-            get { return ImmutableArray.Create(RogerWatersAnalyzerAnalyzer.DiagnosticId); }
+            get { return ImmutableArray.Create<string>(); }
         }
 
         public sealed override FixAllProvider GetFixAllProvider()
